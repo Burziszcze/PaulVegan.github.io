@@ -1,2 +1,2 @@
-# PaulVegan.github.io
+# burziszcze.github.io
 Paul Vegan's portfolio page
