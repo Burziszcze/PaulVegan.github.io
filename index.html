@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Paul Vegan Portfolio Page</title>
+    <title>Paul Vegan's Portfolio</title>
     <!-- Main CSS file -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -45,8 +46,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-col text-center">
-                    <h1 class="in" style="font-size: 63px;">Paweł Wega</h1>
-                    <p class="in" style="font-size: 32px;">Oto moje wspaniałe portfolio xD</p>
+                    <h1 class="in" style="font-size: 63px;">Paweł Jarosz</h1>
+                    <p class="in" style="font-size: 32px;">Oto moje wspaniałe portfolio</p>
                 </div>
             </div>
         </div>
@@ -56,10 +57,11 @@
         <div class="container">
             <div class="row" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-md-4">
-                    <img src="images/img_5.jpg" class="img-circle" width="280" height="240" />
+                    <img src="images/img_5.jpg" class="img-circle" width="250" height="250" />
                 </div>
                 <div class="col-md-8 text-center">
                     <h2>O mnie</h2>
+                    <span class="st-border"></span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus vestibulum purus eu facilisis. In dignissim massa sit amet augue laoreet viverra. Proin a gravida dolor. In urna felis, pretium in posuere lacinia, eleifend vel est. Morbi imperdiet et mauris vel pretium. Curabitur at quam sed lectus viverra pulvinar vel eget turpis. Suspendisse aliquam, ipsum vel dignissim bibendum, eros urna elementum mi, eget luctus turpis dolor ac enim. Curabitur pretium mi non porttitor sollicitudin. Donec sit amet dolor quis leo dapibus finibus sed in leo.
                     </p>
                 </div>
@@ -68,8 +70,78 @@
     </section>
     <!-- /ABOUT -->
     <!-- PROJECTS-->
-    <!-- I hope that this section will be formed soon :) -->
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-projects">
+                        <h1>Moje projekty</h1>
+                        <span class="st-border"></span>
+                        <br />
+                        <div class="col-md-4">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/img_2.jpg" alt="pies">
+                                <div class="overlay">
+                                    <h2>Coming soon</h2>
+                                    <a class="info" href="#">wejdź</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/img_2.jpg" alt="pies">
+                                <div class="overlay">
+                                    <h2>Coming soon</h2>
+                                    <a class="info" href="#">wejdź</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/img_2.jpg" alt="pies">
+                                <div class="overlay">
+                                    <h2>Coming soon</h2>
+                                    <a class="info" href="#">wejdź</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- /PROJECTS-->
+    <!-- NASA GALLERY -->
+    <section id="gallery">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/img_4.jpg" alt="NASA_1">
+                    <div class="carousel-caption">
+                        <h3>życie jest piękne, a potem umierasz</h3>
+                        <p>zdjęcia pochodzą z teleskopu Hubble'a od NASA</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/img_9.jpg" alt="NASA_2">
+                    <div class="carousel-caption">
+                        <h3>życie jest piękne, a potem umierasz</h3>
+                        <p>zdjęcia pochodzą z teleskopu Hubble'a od NASA</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/img_8.jpg" alt="NASA_3">
+                    <div class="carousel-caption">
+                        <h3>życie jest piękne, a potem umierasz</h3>
+                        <p>zdjęcia pochodzą z teleskopu Hubble'a od NASA</p>
+                    </div>
+                </div>
+                <a class="carousel-left" href="#carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="carousel-right" href="#carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- /GALLERY -->
     <!-- CONTACT -->
     <section id="contact">
         <div class="container">
@@ -78,6 +150,7 @@
                     <div class="section-title">
                         <h1>Napisz do mnie</h1>
                         <span class="st-border"></span>
+                        <br />
                     </div>
                 </div>
                 <div class="col-sm-4 contact-info">
@@ -87,7 +160,7 @@
                     <p class="st-email"><i class="fa fa-envelope-o"></i> <strong>buurzuum@gmail.com</strong></p>
                 </div>
                 <div class="col-sm-7 col-sm-offset-1">
-                    <form action="https://formspree.io/buurzuum@gmail.com" class="contact-form" name="contact-form" method="post">
+                    <form action="php/mailer.php" class="contact-form" name="contact-form" method="post">
                         <div class="row">
                             <div class="col-sm-6">
                                 <input type="text" name="name" required="required" placeholder="Imię">
@@ -110,6 +183,12 @@
     <!-- /CONTACT -->
     <section id="parallax">
         <div class="parallax-window" data-parallax="scroll" data-image-src="/images/img_4.jpg">
+            <div class="container">
+                <div class="row">
+                    <h3>This is Parallax.js!</h3>
+                    <p>"a dirt simple parallax scrolling effect inspired by Spotify.com and implemented as a jQuery plugin".</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- FOOTER -->
@@ -145,6 +224,8 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <!-- magnific-popup -->
     <script type="text/javascript" src="js/parallax.js"></script>
+    <!-- OwlCarousel -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <!-- Parallax -->
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <!-- Smooth Scroll -->
